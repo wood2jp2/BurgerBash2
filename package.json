@@ -1,0 +1,19 @@
+{
+  "name": "burgerbash2",
+  "version": "1.0.0",
+  "description": "package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wood2jp2/BurgerBash2.git"
+  },
+  "author": "JPW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wood2jp2/BurgerBash2/issues"
+  },
+  "homepage": "https://github.com/wood2jp2/BurgerBash2#readme"
+}
