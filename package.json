@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/wood2jp2/BurgerBash2/issues"
   },
-  "homepage": "https://github.com/wood2jp2/BurgerBash2#readme"
+  "homepage": "https://github.com/wood2jp2/BurgerBash2#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1"
+  }
 }
