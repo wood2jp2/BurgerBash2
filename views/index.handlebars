@@ -1,0 +1,23 @@
+<h1>BurgerBash!</h1>
+<h2>Eat the Burger</h2>
+<h2>You ATE the Burger</h2>
+
+
+<ul>
+  {{#each burgers}}
+  <li>
+    {{ this.burger_name }}
+  </li>
+  <button type="button" name="devour">Devour</button>
+
+  {{/each}}
+</ul>
+
+<h3>Add the Burger</h3>
+<form class="addBurger" action="index.html" method="post">
+  <div class="form-group">
+  <label for="burg">Burger Name:</label>
+  <input type="text" id="burg" name="name">
+</div>
+<button type="submit">Add Burger</button>
+</form>
