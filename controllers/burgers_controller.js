@@ -14,7 +14,8 @@ router.get('/', function(req, res) {
 });
 
 router.post('/', function(req, res) {
-  burger.create([req.body.burger_name, req.body.devoured],
+  console.log(req.body);
+  burger.insertOne([req.body.burger_name, req.body.devoured],
     function() {
       res.redirect('/');
     });
@@ -25,7 +26,7 @@ router.put('/:id', function(req, res) {
 
   console.log('condition', condition);
 
-  burger.update({
+  burger.updateOne({
     devoured: req.body.devoured
   }, condition, function() {
     res.redirect('/');
