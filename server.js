@@ -1,3 +1,4 @@
+// requiring packages n stuff
 const
   express = require('express'),
   methodOverride = require('method-override'),
@@ -6,6 +7,7 @@ const
   port = 3000,
   app = express();
 
+// route to static files in public folder
 app.use(express.static("public"))
 
 app.use(bodyParser.urlencoded({
