@@ -1,0 +1,15 @@
+body {
+  background-color: #f4b642
+}
+
+h3 {
+  color: #22bf0d
+}
+
+.header, .addBurger {
+  text-align: center;
+}
+
+.ateList {
+  float: right;
+}
