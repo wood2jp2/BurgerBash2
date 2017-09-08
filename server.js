@@ -4,7 +4,7 @@ const
   methodOverride = require('method-override'),
   bodyParser = require('body-parser'),
   path = require('path'),
-  port = 3000,
+  port = process.env.PORT || 3000,
   app = express();
 
 // route to static files in public folder
@@ -30,4 +30,4 @@ var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
 
-app.listen(port);;
+app.listen(port);
